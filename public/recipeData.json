@@ -1,0 +1,56 @@
+[
+    {
+      "recipe_id": 1,
+      "recipe_image": "https://i.ibb.co/5TYxvYf/550px-nowatermark-Make-Chicken-Stir-Fry-Step-8-Version-2.jpg",
+      "recipe_name": "Spicy Chicken Stir-Fry",
+      "description": "A quick and flavorful chicken stir-fry with vegetables.",
+      "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaf", "400 g mushroom"],
+      "preparing_time": "30 min",
+      "calories": "320 calories"
+    },
+    {
+      "recipe_id": 2,
+      "recipe_image": "https://i.ibb.co/7RHhHbT/SES-mixed-vegetable-curry-1957913-03048999db714405bfe8614c975b8a44.jpg",
+      "recipe_name": "Vegetable Curry",
+      "description": "A flavorful vegetarian curry with mixed vegetables and spices.",
+      "ingredients": ["400 g mixed vegetables", "200 ml coconut milk", "2 tbsp curry paste", "1 onion"],
+      "preparing_time": "40 min",
+      "calories": "280 calories"
+    },
+    {
+      "recipe_id": 3,
+      "recipe_image": "https://i.ibb.co/zxkQjqL/istockphoto-177413384-612x612.jpg",
+      "recipe_name": "Classic Spaghetti Carbonara",
+      "description": "A classic Italian pasta dish with bacon, eggs, and cheese.",
+      "ingredients": ["400 g spaghetti", "200 g pancetta or bacon", "3 eggs", "100 g grated Parmesan cheese"],
+      "preparing_time": "25 min",
+      "calories": "450 calories"
+    },
+    {
+      "recipe_id": 4,
+      "recipe_image": "https://i.ibb.co/J2PZRZ7/grilled-salmon-vegetables-260nw-366852431.jpg",
+      "recipe_name": "Grilled Salmon with Lemon",
+      "description": "Grilled salmon fillets marinated in lemon and herbs.",
+      "ingredients": ["4 salmon fillets", "2 lemons", "2 tbsp olive oil", "1 tsp dried dill"],
+      "preparing_time": "20 min",
+      "calories": "300 calories"
+    },
+    {
+      "recipe_id": 5,
+      "recipe_image": "https://i.ibb.co/FndZwdH/images.jpg",
+      "recipe_name": "Honey Mustard Chicken",
+      "description": "Juicy chicken breasts baked in a sweet and tangy honey mustard sauce.",
+      "ingredients": ["4 chicken breasts", "80 ml honey", "60 ml Dijon mustard", "1 tbsp olive oil"],
+      "preparing_time": "35 min",
+      "calories": "280 calories"
+    },
+    {
+        "recipe_id": 6,
+        "recipe_image": "https://i.ibb.co/4WzcnZw/mashroom.jpg",
+        "recipe_name": "Mushroom Risotto",
+        "description": "Creamy and delicious mushroom risotto made with Arborio rice.",
+        "ingredients": ["300 g Arborio rice", "500 g mushrooms", "1 onion", "1 liter vegetable broth"],
+        "preparing_time": "45 min",
+        "calories": "380 calories"
+      }
+  ]
