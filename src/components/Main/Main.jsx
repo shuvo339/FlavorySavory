@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Recipes from "../Recipes/Recipes";
 import Sidebar from "../Sidebar/Sidebar";
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Main = () => {
     const [carts, setCarts] = useState([]);
@@ -15,8 +15,7 @@ const Main = () => {
             setCarts(newCart)
         }
         else{
-            alert('Already Existed');
-            // toast.success("Already Existed!")
+            toast.error("Already Existed!")
         }
     }
 
@@ -37,8 +36,8 @@ const Main = () => {
 
                 <Sidebar carts={carts} handleAddToCookingList={handleAddToCookingList} cookingList={cookingList}></Sidebar>
             </div>
-            {/* <ToastContainer /> */}
-            {/* npm install --save react-toastify */}
+            <ToastContainer />
+            npm install --save react-toastify
         </div>
     );
 };

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const Sidebar = ({carts, handleAddToCookingList, cookingList}) => {
 
     return (
-        <div className="lg:col-span-2 col-span-6 border-2 border-slate-200 p-2 rounded-lg h-fit">
+        <div className="lg:col-span-2 col-span-6 border-2 border-slate-200 p-2 rounded-lg h-fit shadow-lg">
             <h1 className="text-2xl text-center font-bold pb-5">Want to cook: {carts.length}</h1>
             <table>
                 <thead>
