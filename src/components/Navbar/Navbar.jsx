@@ -5,7 +5,7 @@ const Navbar = () => {
         <div>
             <nav className="flex lg:flex-row flex-col gap-3 lg:gap-0 justify-between items-center">
                 <div className="left hover:bg-slate-200 px-4 rounded-xl py-2">
-                    <h1 className="text-4xl font-bold bg-gradient-to-r from-green-800 via-green-600 to-green-500 inline-block text-transparent bg-clip-text">FlavorySimply</h1>
+                    <h1 className="text-4xl font-bold bg-gradient-to-r from-green-800 via-green-600 to-green-500 inline-block text-transparent bg-clip-text">FlavorySavory</h1>
                 </div>
                 <div className="middle flex gap-4 opacity-70">
                     <a className="hover:bg-slate-300 p-2 rounded-md" href="">Home</a>

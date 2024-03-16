@@ -37,7 +37,6 @@ const Main = () => {
                 <Sidebar carts={carts} handleAddToCookingList={handleAddToCookingList} cookingList={cookingList}></Sidebar>
             </div>
             <ToastContainer />
-            npm install --save react-toastify
         </div>
     );
 };
