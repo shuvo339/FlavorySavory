@@ -2,8 +2,8 @@ import { FiClock } from "react-icons/fi";
 import { AiOutlineFire } from "react-icons/ai";
 import PropTypes from 'prop-types';
 
-const Recipe = ({recipe}) => {
-    const {recipe_id, recipe_image, recipe_name, description, ingredients, preparing_time, calories} = recipe;
+const Recipe = ({recipe, handleCart}) => {
+    const {recipe_image, recipe_name, description, ingredients, preparing_time, calories} = recipe;
     return (
         <div className="border-2 border-slate-200 p-6 rounded-lg">
             <img className="rounded-lg w-full h-52" src={recipe_image} alt="" />
@@ -26,13 +26,14 @@ const Recipe = ({recipe}) => {
                 </div>
             </div>
 
-            <button className="px-6 py-2 rounded-full bg-green-400 font-semibold">Want to Cook</button>
+            <button onClick={()=>handleCart(recipe)} className="px-6 py-2 rounded-full bg-green-400 hover:bg-green-600 font-semibold">Want to Cook</button>
         </div>
     );
 };
 
 Recipe.propTypes ={
     recipe: PropTypes.object,
+    handleCart: PropTypes.func,
 }
 
 export default Recipe;
